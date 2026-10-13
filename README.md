@@ -4,7 +4,7 @@ Selected projects from my Deep Learning coursework, built with PyTorch (plus Ker
 
 | Project | Task | Models | Headline result |
 |---|---|---|---|
-| [Crop & Weed Detection](crop-weed-detection-yolov8/) | Object detection + per-image plant counting | YOLOv8m (fine-tuned from pre-trained weights) | End-to-end pipeline: dataset prep, training, mAP/precision/recall evaluation, inference, FPS benchmark |
+| [Crop & Weed Detection](crop-weed-detection-yolov8/) | Object detection + per-image plant counting | YOLOv8m (fine-tuned from pre-trained weights) | mAP50 0.878, mAP50-95 0.576, precision 0.810, recall 0.799 on 130 validation images; adds per-image crop/weed counting |
 | [Retinal Vessel Segmentation](retinal-vessel-segmentation-unet/) | Semantic segmentation of fundus images | U-Net with 2, 3 and 4 encoder blocks (from scratch) | Best model (3 blocks): mean Dice 0.795, IoU 0.661 on 20 held-out images |
 | [ENZYMES Graph Classification](graph-classification-enzymes-gcn/) | 6-class graph classification | 1- and 2-layer GCN (PyTorch Geometric) | 2-layer GCN: macro-F1 0.536, macro AUC 0.840 on 60 test graphs |
 | [MNIST Architecture Comparison](mnist-architecture-comparison/) | 10-class image classification | DNN, custom CNN, ResNet18 (from scratch) | ResNet18 at lr 0.001: 98.8% test accuracy, macro-F1 0.988 |
