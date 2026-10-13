@@ -1,0 +1,16 @@
+# Model weights and run artifacts
+*.pth
+*.pt
+*.pth.tar
+runs_cropweed/
+saved_models/
+
+# Datasets downloaded by notebooks
+data/
+Data.zip
+*.zip
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
